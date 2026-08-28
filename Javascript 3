@@ -1,0 +1,4 @@
+let valorCompra = parseFloat(prompt("Digite o valor da compra: R$"));
+let valorPago = parseFloat(prompt("Digite o valor pago: R$"));
+let troco = valorPago - valorCompra;
+console.log(`O troco é: R$${troco}`);

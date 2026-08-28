@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class CalculoTroco {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o valor da compra: R$");
+        double valorCompra = scanner.nextDouble();
+
+        System.out.print("Digite o valor pago: R$");
+        double valorPago = scanner.nextDouble();
+
+        double troco = valorPago - valorCompra;
+
+        System.out.println("O troco é: R$" + troco);
+
+        scanner.close();
+    }
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class AreaRetangulo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite a base (em metros): ");
+        double base = scanner.nextDouble();
+
+        System.out.print("Digite a altura (em metros): ");
+        double altura = scanner.nextDouble();
+
+        double area = base * altura;
+
+        System.out.println("A área do retângulo é: " + area + "m²");
+
+        scanner.close();
+    }
+}
+
